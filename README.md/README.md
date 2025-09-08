@@ -28,7 +28,7 @@ The topics range from control logic and state machines in Stateflow to digital c
   - Emergency mode, setting all signals to red.  
 
 📷 **Diagramm / Diagram**:  
-![Ampelsteuerung Modell](Image/ampel_steuerung.png) 
+![Ampelsteuerung Modell](images/ampel_steuerung.jpg) 
 
 ---
 
