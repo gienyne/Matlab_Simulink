@@ -28,7 +28,10 @@ The topics range from control logic and state machines in Stateflow to digital c
   - Emergency mode, setting all signals to red.  
 
 📷 **Diagramm / Diagram**:  
-![Ampelsteuerung Modell](images/ampel_steuerung.jpg) 
+
+
+![Ampelsteuerung ](images/ampel_steuerung_ohneArduirno.jpg) 
+
 
 ---
 
@@ -45,6 +48,9 @@ The topics range from control logic and state machines in Stateflow to digital c
 - Integration of **2 push buttons** to interact with the control logic.  
 - Practical coupling between **Simulink** and hardware.  
 
+![Ampelsteuerung Erweiterung mit Arduirno](images/ampel_steuerung_mitArduirno.jpg) 
+
+![Ampelsteuerung Aufbau](images/ampel_steuerung.jpg) 
 ---
 
 ### 3. Bahnübergang / Railway Crossing
@@ -65,6 +71,8 @@ The topics range from control logic and state machines in Stateflow to digital c
   - While the train passes, the red light stays on.  
   - After the train has passed, the barriers open again if no further train is reported.  
 - Implemented in **Stateflow** with continuous time control.  
+
+![Bahn_übergang](images/bahn_uebergang.jpg) 
 
 ---
 
@@ -88,6 +96,8 @@ The topics range from control logic and state machines in Stateflow to digital c
 - Inputs and outputs in parallel binary representation (via **Mux** and **Demux**).  
 - Output displayed through a Simulink display.  
 - Implemented using only **logic gates, subsystems, and constants**.  
+
+![4_Bit_Subtrahierers](images/4_bit_substraktor.jpg) 
 
 ---
 
